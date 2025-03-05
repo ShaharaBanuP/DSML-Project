@@ -1,5 +1,6 @@
 ## Spotify Music Analysis & Recommendation System
 This project focuses on building a recommendation system using a Spotify dataset. The dataset contains detailed information about songs, including audio features, artist details, release dates, and popularity metrics.
+
 Dataset Overview
 
     Data Preprocessing:
@@ -14,15 +15,15 @@ Dataset Overview
 
 2.Feature Selection & Dimensionality Reduction:
 
-    Variance Thresholding to remove low-variance features.
+    . Variance Thresholding to remove low-variance features.
 
-    Principal Component Analysis (PCA) to retain only the most informative components.
+    . Principal Component Analysis (PCA) to retain only the most informative components.
 
-    Similarity Computation & Recommendation:
+    . Similarity Computation & Recommendation:
 
-    Used Euclidean distance to measure song similarity.
+    . Used Euclidean distance to measure song similarity.
 
-    Based on an input track, recommended songs with the most similar feature profiles.
+    . Based on an input track, recommended songs with the most similar feature profiles.
 
 Objective
 
