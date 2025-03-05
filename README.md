@@ -4,13 +4,13 @@ Dataset Overview
 
     Data Preprocessing:
 
-    Handled missing values (e.g., filled missing tempo values using the median).
+    . Handled missing values (e.g., filled missing tempo values using the median).
 
-    Encoded categorical features (artists, release date) for model compatibility.
+    . Encoded categorical features (artists, release date) for model compatibility.
 
-    Scaled numerical features using MinMaxScaler to ensure consistency.
+    . Scaled numerical features using MinMaxScaler to ensure consistency.
 
-    Removed outliers from key features (tempo, speechiness, liveness, duration, popularity) using IQR method.
+    . Removed outliers from key features (tempo, speechiness, liveness, duration, popularity) using IQR method.
 
 2.Feature Selection & Dimensionality Reduction:
 
